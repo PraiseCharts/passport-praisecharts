@@ -1,0 +1,49 @@
+{
+  "name": "passport-praisecharts",
+  "version": "0.0.1",
+  "description": "praisecharts authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "praisecharts",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Isaiah Dahl",
+    "email": "isaiah@praisecharts.com",
+    "url": "http://developers.praisecharts.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PraiseCharts/passport-praisecharts.git"
+  },
+  "bugs": {
+    "url": "http://github.com/PraiseCharts/passport-praisecharts/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth1": "1.x.x",
+    "xtraverse": "0.1.x"
+  },
+  "devDependencies": {
+    "make-node": "0.4.6",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha --require ./test/bootstrap/node --recursive"
+  }
+}
