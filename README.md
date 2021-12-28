@@ -11,8 +11,7 @@ unobtrusively integrated into any application or framework that supports
 
 
 [![npm](https://img.shields.io/npm/v/passport-praisecharts.svg)](https://www.npmjs.com/package/passport-praisecharts)
-[![build](https://img.shields.io/travis/jaredhanson/passport-praisecharts.svg)](https://travis-ci.org/jaredhanson/passport-praisecharts)
-[![coverage](https://img.shields.io/coveralls/jaredhanson/passport-praisecharts.svg)](https://coveralls.io/github/jaredhanson/passport-praisecharts)
+![build](https://github.com/PraiseCharts/passport-praisecharts/actions/workflows/node.yml/badge.svg)
 [...](https://github.com/jaredhanson/passport-praisecharts/wiki/Status)
 
 ## Install
