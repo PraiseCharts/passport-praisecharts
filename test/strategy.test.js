@@ -49,7 +49,7 @@ describe('Strategy', function() {
     });
   
     it('should be redirected', function() {
-      expect(url).to.equal('https://www.praisecharts.com/api/oauth/authenticate?oauth_token=hh5s93j4hdidpola');
+      expect(url).to.equal('https://www.praisecharts.com/api/oauth/authorize?oauth_token=hh5s93j4hdidpola');
     });
   });
   
@@ -79,7 +79,7 @@ describe('Strategy', function() {
     });
   
     it('should be redirected', function() {
-      expect(url).to.equal('https://www.praisecharts.com/api/oauth/authenticate?oauth_token=hh5s93j4hdidpola&force_login=true&screen_name=bob');
+      expect(url).to.equal('https://www.praisecharts.com/api/oauth/authorize?oauth_token=hh5s93j4hdidpola&force_login=true&screen_name=bob');
     });
   });
   
