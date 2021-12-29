@@ -1,4 +1,4 @@
-# passport-praisecharts
+# passport-praisecharts (WIP)
 
 [Passport](http://passportjs.org/) strategy for authenticating with [PraiseCharts](http://praisecharts.com/)
 using the OAuth 1.0a API.
