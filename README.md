@@ -1,7 +1,5 @@
 # passport-praisecharts (WIP)
 
-Originally forked from passport-twitter
-
 [Passport](http://passportjs.org/) strategy for authenticating with [PraiseCharts](http://praisecharts.com/)
 using the OAuth 1.0a API.
 
@@ -77,6 +75,10 @@ app.get('/auth/praisecharts/callback',
 Developers using the popular [Express](http://expressjs.com/) web framework can
 refer to an [example](https://github.com/passport/express-4.x-praisecharts-example)
 as a starting point for their own web applications.
+
+## Credit
+
+Originally forked from [passport-twitter](https://github.com/jaredhanson/passport-twitter)
 
 ## License
 
