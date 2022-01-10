@@ -1,5 +1,7 @@
 # passport-praisecharts (WIP)
 
+Originally forked from passport-twitter
+
 [Passport](http://passportjs.org/) strategy for authenticating with [PraiseCharts](http://praisecharts.com/)
 using the OAuth 1.0a API.
 
@@ -24,12 +26,7 @@ $ npm install passport-praisecharts
 
 #### Create an Application
 
-Before using `passport-praisecharts`, you must register an application with PraiseCharts.
-If you have not already done so, a new application can be created at
-[PraiseCharts Application Management](https://apps.praisecharts.com/).  Your application
-will be issued a consumer key (API Key) and consumer secret (API Secret), which
-need to be provided to the strategy.  You will also need to configure a callback
-URL which matches the route in your application.
+Before using `passport-praisecharts`, you must register an application with PraiseCharts. Your application will be issued a consumer key (API Key) and consumer secret (API Secret), which need to be provided to the strategy.  You will also need to configure a callback URL which matches the route in your application.
 
 #### Configure Strategy
 
@@ -43,8 +40,8 @@ providing a user to complete authentication.
 
 ```javascript
 passport.use(new PraiseChartsStrategy({
-    consumerKey: TWITTER_CONSUMER_KEY,
-    consumerSecret: TWITTER_CONSUMER_SECRET,
+    consumerKey: PRAISECHARTS_CONSUMER_KEY,
+    consumerSecret: PRAISECHARTS_CONSUMER_SECRET,
     callbackURL: "http://127.0.0.1:3000/auth/praisecharts/callback"
   },
   function(token, tokenSecret, profile, cb) {
